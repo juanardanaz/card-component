@@ -53,24 +53,17 @@ html {
 
 body {
   background-color: var(--very-light-gray);
-  color: var(--white);
+  font-size: var(--font-normal);
 }
 
-h1, h2, h3 {
-  font-family: var(--body-font-a);
+.card-sedans {
+  background-color: var(--bright-orange);
 }
 
-p {
-  font-family: var(--body-font-b);
+.card-suvs {
+  background-color: var(--dark-cyan);
 }
 
-button {
-  cursor: pointer;
-  border: none;
-  outline: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
+.card-luxury {
+  background-color: var(--very-dark-cyan);
 }
