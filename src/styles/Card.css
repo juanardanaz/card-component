@@ -28,15 +28,14 @@
 img {
   max-width: 100%;
   height: auto;
-}
-
-.card {
-  height: 40vh;
+  margin-bottom: 2rem;
 }
 
 .card-title {
   font-family: var(--body-font-b);
   text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: var(--very-light-gray);
 }
 
 .card-description,
@@ -44,13 +43,27 @@ img {
   font-family: var(--body-font-a);
 }
 
+.card-description {
+  max-width: 15rem;
+  margin-bottom: 2rem;
+  color: var(--transparent-white);
+  line-height: 1.5rem;
+}
+
 .card-button {
   cursor: pointer;
   border: none;
   outline: none;
   background-color: var(--very-light-gray);
-  padding: .75rem 1rem;
-  border-radius: .5rem;
+  width: 9rem;
+  height: 3rem;
+  border-radius: 1.5rem;
   transition: .2s;
+}
+
+.card-button:hover {
+  background-color: transparent;
+  border: 2px solid var(--very-light-gray);
+  color: var(--transparent-white);
 }
 

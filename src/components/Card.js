@@ -3,20 +3,20 @@ import '../styles/Card.css';
 
 function Card(props) {
   return(
-    <div className="card">
+    <div className={props.className}>
       <img 
-        className="icon-card"
+        className='icon-card'
         src={require(`../images/icon-${props.image}.svg`)}
-        alt='icon'
+        alt={props.alt}
       />
-      <div className="card-text">
-        <h1 className="card-title">
+      <div className='card-text'>
+        <h1 className='card-title'>
           {props.title}
         </h1>
-        <p className="card-description">
+        <p className='card-description'>
           {props.description}
         </p>
-        <button className="card-button">
+        <button className='card-button'>
           Learn More
         </button>
       </div>
