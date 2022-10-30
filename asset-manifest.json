@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/card-component/static/css/main.30732e55.css",
+    "main.js": "/card-component/static/js/main.2d7f100e.js",
+    "static/media/BigShouldersDisplay-Bold.woff": "/card-component/static/media/BigShouldersDisplay-Bold.f5a243c948b2f6f44d5a.woff",
+    "static/media/BigShouldersDisplay-Bold.woff2": "/card-component/static/media/BigShouldersDisplay-Bold.2416d7a16970f29c5f92.woff2",
+    "static/media/LexendDeca-Regular.woff": "/card-component/static/media/LexendDeca-Regular.cb8042b5058deac3d221.woff",
+    "static/media/LexendDeca-Regular.woff2": "/card-component/static/media/LexendDeca-Regular.a43c74f6c8ca3080c655.woff2",
+    "static/media/icon-luxury.svg": "/card-component/static/media/icon-luxury.7d6e1aefdc39c4742fbb.svg",
+    "static/media/icon-suvs.svg": "/card-component/static/media/icon-suvs.058b664c311101933ebd.svg",
+    "static/media/icon-sedans.svg": "/card-component/static/media/icon-sedans.e794502801c486bcffc3.svg",
+    "index.html": "/card-component/index.html",
+    "main.30732e55.css.map": "/card-component/static/css/main.30732e55.css.map",
+    "main.2d7f100e.js.map": "/card-component/static/js/main.2d7f100e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30732e55.css",
+    "static/js/main.2d7f100e.js"
+  ]
+}
