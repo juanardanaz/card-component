@@ -36,6 +36,8 @@ img {
   text-transform: uppercase;
   margin-bottom: 2rem;
   color: var(--very-light-gray);
+  font-size: 2rem;
+  letter-spacing: 1.5px;
 }
 
 .card-description,
@@ -65,5 +67,19 @@ img {
   background-color: transparent;
   border: 2px solid var(--very-light-gray);
   color: var(--transparent-white);
+}
+
+/* ========= MEDIA QUERIES ========= */
+/* For Large Devices */
+@media screen and (min-width: 968px) {
+  img {
+    margin-bottom: 1.5rem;
+  }
+
+  .card-description {
+    max-width: 13.5rem;
+    margin-bottom: 3rem;
+  }
+
 }
 

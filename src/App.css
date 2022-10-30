@@ -53,8 +53,13 @@ body {
 .card-sedans,
 .card-suvs,
 .card-luxury {
-  height: 50vh;
+  height: 27rem;
   padding: 3rem 2rem 2rem 2rem;
+}
+
+.card-main {
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .card-sedans {
@@ -79,4 +84,25 @@ body {
 
 .card-luxury button {
   color: var(--very-dark-cyan);
+}
+
+button {
+  font-weight: var(--font-bold);
+}
+
+/* ========= MEDIA QUERIES ========= */
+/* For Large Devices */
+@media screen and (min-width: 968px) {
+  .card-main {
+    display: flex;
+    position: absolute;
+    top: 30%;
+  }
+
+  .card-sedans,
+  .card-suvs,
+  .card-luxury {
+    height: 27rem;
+    padding: 2rem 2rem 2rem 2rem;
+  }
 }
