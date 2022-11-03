@@ -74,19 +74,19 @@ body {
   background-color: var(--very-dark-cyan);
 }
 
-.card-sedans button {
+.card-sedans .button {
   color: var(--bright-orange);
 }
 
-.card-suvs button {
+.card-suvs .button {
   color: var(--dark-cyan);
 }
 
-.card-luxury button {
+.card-luxury .button {
   color: var(--very-dark-cyan);
 }
 
-button {
+.button {
   font-weight: var(--font-bold);
 }
 

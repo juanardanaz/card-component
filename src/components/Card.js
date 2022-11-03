@@ -7,18 +7,19 @@ function Card(props) {
       <img 
         className='icon-card'
         src={require(`../images/icon-${props.image}.svg`)}
-        alt={props.alt}
+        aria-hidden="true"
+        alt=''
       />
       <div className='card-text'>
-        <h1 className='card-title'>
+        <h2 className='card-title'>
           {props.title}
-        </h1>
+        </h2>
         <p className='card-description'>
           {props.description}
         </p>
-        <button className='card-button'>
+        <a href="#" className='card-button button'>
           Learn More
-        </button>
+        </a>
       </div>
     </div>
   );

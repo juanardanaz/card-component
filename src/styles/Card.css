@@ -31,6 +31,10 @@ img {
   margin-bottom: 2rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 .card-title {
   font-family: var(--body-font-b);
   text-transform: uppercase;
@@ -54,18 +58,15 @@ img {
 
 .card-button {
   cursor: pointer;
-  border: none;
-  outline: none;
   background-color: var(--very-light-gray);
-  width: 9rem;
-  height: 3rem;
   border-radius: 1.5rem;
   transition: .2s;
+  padding: 0.85rem 1.6rem;
+  border: 2px solid var(--very-light-gray);
 }
 
 .card-button:hover {
   background-color: transparent;
-  border: 2px solid var(--very-light-gray);
   color: var(--transparent-white);
 }
 
